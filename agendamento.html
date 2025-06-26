@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Agendamento</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <nav class="navbar">
+    <a href="index.html">Início</a>
+    <a href="login.html">Login / Cadastro</a>
+    <a href="agendamento.html">Agendamento</a>
+    <a href="pontos-coleta.html">Pontos de Coleta</a>
+  </nav>
+
+  <header><h1>Agendamento de Coleta</h1></header>
+  <main class="form-section">
+    <form>
+      <label for="dispositivo">Dispositivo:</label>
+      <input type="text" id="dispositivo" required />
+
+      <label for="endereco">Endereço para coleta:</label>
+      <input type="text" id="endereco" required />
+
+      <label for="horario">Melhor horário:</label>
+      <input type="text" id="horario" required />
+
+      <button type="submit">Agendar</button>
+    </form>
+  </main>
+</body>
+</html>
